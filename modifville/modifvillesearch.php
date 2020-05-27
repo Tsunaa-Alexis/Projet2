@@ -83,6 +83,7 @@ $(document).ready(function() {
 
     </head>
     <body>
+<?php include('..\index\include1.php'); ?>
 <?php
 
 ini_set('display_errors', '1');
@@ -160,7 +161,6 @@ catch (Exception $e) {
         </table>
 
         <script src="https://unpkg.com/bootstrap-table@1.15.5/dist/bootstrap-table.min.js"></script>
-
 
     </body>
 </html>

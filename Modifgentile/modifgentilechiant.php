@@ -5,7 +5,7 @@
     <script src="https://kit.fontawesome.com/768b55194c.js" crossorigin="anonymous"></script>
 </head>
 <body>
-
+<?php include('..\index\include1.php'); ?>
 
 <?php
 
@@ -195,7 +195,7 @@ if ($i == 0) {
     </form>
 
 
-
+<?php include('..\index\include2.php'); ?>
 
 
     

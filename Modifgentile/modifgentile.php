@@ -6,7 +6,7 @@
 </head>
 <body>
 
-
+<?php include('..\index\include1.php'); ?>
 <?php
 
 ini_set('display_errors', '1');
@@ -74,6 +74,8 @@ if (isset($_POST['insert'])) {
         $gentileh = $resultat['gentile_h_ville'];
         $gentilef = $resultat['gentile_f_ville'];
         $id1 = $resultat['id_ville'];
+
+
 ?>
 
 <form method = "POST" action = "modifgentile.php" enctype="multipart/form-data" >
@@ -216,7 +218,7 @@ if ($i == 0) {
         </fieldset>
     </form>
 
-
+<?php include('..\index\include2.php'); ?>
 
     
 

@@ -82,6 +82,7 @@ $(document).ready(function() {
 
     </head>
     <body>
+        <?php include('..\index\include1.php'); ?>
 <?php
 
 ini_set('display_errors', '1');

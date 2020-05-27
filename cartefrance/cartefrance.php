@@ -1,3 +1,4 @@
+<?php include('..\index\include1.php'); ?>
 <?php
 
 
@@ -345,3 +346,4 @@ $sql = 'SELECT nom_ville_impr1, nom_ville_impr2, nom_ville, rewrite_ville, geo_p
     $pdo->commit();
 
 ?>
+<?php include('..\index\include2.php'); ?>

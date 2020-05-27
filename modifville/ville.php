@@ -20,7 +20,7 @@
 		
 		/* connexion SQL  (avec PDO car Mysql_connect sera déprécié dès php 7 :P) */
 		$host='localhost';
-		$port='3306';
+		$port='3308';
 		$database='testest';
 		$user='root';
 		$password='';

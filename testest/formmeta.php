@@ -14,12 +14,12 @@ ini_set('error_reporting', E_ALL);
 
 // Infos de connexion
 $host = 'localhost';
-$db   = 'newtest';
+$db   = 'testest';
 $user = 'root';
-$pass = 'root';
+$pass = '';
 $charset = 'utf8mb4';
 
-$dsn = "mysql:host=$host;dbname=$db;charset=$charset";
+$dsn = "mysql:host=$host;port=3308;dbname=$db;charset=$charset";
 $options = [
     PDO::ATTR_ERRMODE            => PDO::ERRMODE_EXCEPTION,
     PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,

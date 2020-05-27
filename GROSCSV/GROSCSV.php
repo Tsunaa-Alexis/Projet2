@@ -17,7 +17,7 @@ ini_set('error_reporting', E_ALL);
 $host = 'localhost';
 $db   = 'testest';
 $user = 'root';
-$pass = 'root';
+$pass = '';
 $charset = 'utf8mb4';
 
 $dsn = "mysql:host=$host;dbname=$db;charset=$charset";

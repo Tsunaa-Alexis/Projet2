@@ -30,3 +30,4 @@ Et enfin pour le référencement google il nous faudra instaurer des meta pour c
 - Modification des gentille
 - Ajout des meta(spécifique à une ville, pour toutes les villes)
 - Modifications des informations pour une ville/département/région
+- Création d'une image avec la carte de la france et la ville placer sur la carte (optionnel)
